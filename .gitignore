@@ -1,0 +1,25 @@
+# Dataset (user provides locally; not committed to Git)
+MMS_Data/
+test_data/
+
+# Generated artifacts (the *.pt model + .json configs are kept)
+models/*/artifacts/stft_cache/
+models/*/artifacts/plots/
+models/*/artifacts/test_report.csv
+models/*/artifacts/training_history.json
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+venv/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml

@@ -1,0 +1,311 @@
+{
+  "n_files": 10,
+  "fault_classes": [
+    "Normal",
+    "Unbalance",
+    "Misalignment",
+    "Looseness"
+  ],
+  "severity_levels": [
+    "Low",
+    "Medium",
+    "High"
+  ],
+  "fault_confusion": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "severity_confusion": [
+    [
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      0
+    ]
+  ],
+  "overall_fault_accuracy": 0.8,
+  "overall_severity_accuracy": 0.2857142857142857,
+  "fault_per_class": {
+    "Normal": {
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    "Unbalance": {
+      "total": 3,
+      "correct": 1,
+      "accuracy": 0.3333333333333333
+    },
+    "Misalignment": {
+      "total": 3,
+      "correct": 3,
+      "accuracy": 1.0
+    },
+    "Looseness": {
+      "total": 3,
+      "correct": 3,
+      "accuracy": 1.0
+    }
+  },
+  "severity_per_class": {
+    "Low": {
+      "total": 2,
+      "correct": 1,
+      "accuracy": 0.5
+    },
+    "Medium": {
+      "total": 3,
+      "correct": 1,
+      "accuracy": 0.3333333333333333
+    },
+    "High": {
+      "total": 2,
+      "correct": 0,
+      "accuracy": 0.0
+    }
+  },
+  "per_file": [
+    {
+      "file": "Mechanical_High_3000_15.jsonl",
+      "rpm": 3000,
+      "true_fault": "Looseness",
+      "predicted_fault": "Looseness",
+      "true_severity": "High",
+      "predicted_severity": "Low",
+      "fault_correct": true,
+      "fault_probs": {
+        "Normal": 9.703338946565054e-06,
+        "Unbalance": 7.198814273579046e-06,
+        "Misalignment": 1.2744934792863205e-05,
+        "Looseness": 0.9999724626541138
+      },
+      "severity_probs": {
+        "Low": 0.3667050302028656,
+        "Medium": 0.35054531693458557,
+        "High": 0.28274962306022644
+      },
+      "confidence": "High"
+    },
+    {
+      "file": "Mechanical_Low_2000_15.jsonl",
+      "rpm": 2000,
+      "true_fault": "Looseness",
+      "predicted_fault": "Looseness",
+      "true_severity": "Low",
+      "predicted_severity": "High",
+      "fault_correct": true,
+      "fault_probs": {
+        "Normal": 9.823287837207317e-05,
+        "Unbalance": 0.00011841266677947715,
+        "Misalignment": 0.000407515763072297,
+        "Looseness": 0.9993749260902405
+      },
+      "severity_probs": {
+        "Low": 0.3327321708202362,
+        "Medium": 0.2713724970817566,
+        "High": 0.3958953320980072
+      },
+      "confidence": "High"
+    },
+    {
+      "file": "Mechanical_Medium_2000_15.jsonl",
+      "rpm": 2000,
+      "true_fault": "Looseness",
+      "predicted_fault": "Looseness",
+      "true_severity": "Medium",
+      "predicted_severity": "High",
+      "fault_correct": true,
+      "fault_probs": {
+        "Normal": 4.619677201844752e-05,
+        "Unbalance": 4.720415745396167e-05,
+        "Misalignment": 9.742095426190645e-05,
+        "Looseness": 0.999808669090271
+      },
+      "severity_probs": {
+        "Low": 0.33394429087638855,
+        "Medium": 0.2736004590988159,
+        "High": 0.39245539903640747
+      },
+      "confidence": "High"
+    },
+    {
+      "file": "Misalignment_High_3000_15.jsonl",
+      "rpm": 3000,
+      "true_fault": "Misalignment",
+      "predicted_fault": "Misalignment",
+      "true_severity": "High",
+      "predicted_severity": "Medium",
+      "fault_correct": true,
+      "fault_probs": {
+        "Normal": 2.721589589782525e-05,
+        "Unbalance": 4.3942814954789355e-05,
+        "Misalignment": 0.9998453855514526,
+        "Looseness": 8.34956590551883e-05
+      },
+      "severity_probs": {
+        "Low": 0.002817180473357439,
+        "Medium": 0.8861405849456787,
+        "High": 0.11104217171669006
+      },
+      "confidence": "High"
+    },
+    {
+      "file": "Misalignment_Low_2500_15.jsonl",
+      "rpm": 2500,
+      "true_fault": "Misalignment",
+      "predicted_fault": "Misalignment",
+      "true_severity": "Low",
+      "predicted_severity": "Low",
+      "fault_correct": true,
+      "fault_probs": {
+        "Normal": 1.5611845810781233e-05,
+        "Unbalance": 3.818510958808474e-05,
+        "Misalignment": 0.9998711347579956,
+        "Looseness": 7.437057502102107e-05
+      },
+      "severity_probs": {
+        "Low": 0.9998904466629028,
+        "Medium": 6.0300921177258715e-05,
+        "High": 4.944029205944389e-05
+      },
+      "confidence": "High"
+    },
+    {
+      "file": "Misalignment_Medium_2000_15.jsonl",
+      "rpm": 2000,
+      "true_fault": "Misalignment",
+      "predicted_fault": "Misalignment",
+      "true_severity": "Medium",
+      "predicted_severity": "Medium",
+      "fault_correct": true,
+      "fault_probs": {
+        "Normal": 6.641261734330328e-06,
+        "Unbalance": 1.8113654732587747e-05,
+        "Misalignment": 0.9999411106109619,
+        "Looseness": 3.3946827898034826e-05
+      },
+      "severity_probs": {
+        "Low": 0.0059120231308043,
+        "Medium": 0.9279577732086182,
+        "High": 0.06613016873598099
+      },
+      "confidence": "High"
+    },
+    {
+      "file": "Normal_2000_15.jsonl",
+      "rpm": 2000,
+      "true_fault": "Normal",
+      "predicted_fault": "Normal",
+      "true_severity": null,
+      "predicted_severity": null,
+      "fault_correct": true,
+      "fault_probs": {
+        "Normal": 0.9865655303001404,
+        "Unbalance": 0.009164554066956043,
+        "Misalignment": 0.0005470871110446751,
+        "Looseness": 0.0037230439484119415
+      },
+      "severity_probs": {
+        "Low": 1.0,
+        "Medium": 0.0,
+        "High": 0.0
+      },
+      "confidence": "High"
+    },
+    {
+      "file": "Unbalanced_High_2000_15.jsonl",
+      "rpm": 2000,
+      "true_fault": "Unbalance",
+      "predicted_fault": "Normal",
+      "true_severity": "High",
+      "predicted_severity": null,
+      "fault_correct": false,
+      "fault_probs": {
+        "Normal": 0.5628541111946106,
+        "Unbalance": 0.039526525884866714,
+        "Misalignment": 0.027043478563427925,
+        "Looseness": 0.370575875043869
+      },
+      "severity_probs": {
+        "Low": 1.0,
+        "Medium": 0.0,
+        "High": 0.0
+      },
+      "confidence": "Low"
+    },
+    {
+      "file": "Unbalanced_Low_3000_15.jsonl",
+      "rpm": 3000,
+      "true_fault": "Unbalance",
+      "predicted_fault": "Normal",
+      "true_severity": "Low",
+      "predicted_severity": null,
+      "fault_correct": false,
+      "fault_probs": {
+        "Normal": 0.7955434322357178,
+        "Unbalance": 0.02280755713582039,
+        "Misalignment": 0.015344166196882725,
+        "Looseness": 0.16630491614341736
+      },
+      "severity_probs": {
+        "Low": 1.0,
+        "Medium": 0.0,
+        "High": 0.0
+      },
+      "confidence": "Medium"
+    },
+    {
+      "file": "Unbalanced_Medium_2000_15.jsonl",
+      "rpm": 2000,
+      "true_fault": "Unbalance",
+      "predicted_fault": "Unbalance",
+      "true_severity": "Medium",
+      "predicted_severity": "Low",
+      "fault_correct": true,
+      "fault_probs": {
+        "Normal": 0.2727810740470886,
+        "Unbalance": 0.6749432682991028,
+        "Misalignment": 0.016197022050619125,
+        "Looseness": 0.03607873246073723
+      },
+      "severity_probs": {
+        "Low": 0.9998159408569336,
+        "Medium": 6.956482684472576e-05,
+        "High": 0.00011441334208939224
+      },
+      "confidence": "Low"
+    }
+  ],
+  "model_name": "2D CNN"
+}

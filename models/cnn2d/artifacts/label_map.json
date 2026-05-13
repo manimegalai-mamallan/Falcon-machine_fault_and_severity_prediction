@@ -1,0 +1,13 @@
+{
+  "fault_classes": [
+    "Normal",
+    "Unbalance",
+    "Misalignment",
+    "Looseness"
+  ],
+  "severity_levels": [
+    "Low",
+    "Medium",
+    "High"
+  ]
+}

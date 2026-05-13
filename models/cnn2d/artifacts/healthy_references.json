@@ -1,0 +1,39 @@
+{
+  "rpms": [
+    2000,
+    2500,
+    3000
+  ],
+  "classes": [
+    "Looseness",
+    "Misalignment",
+    "Normal",
+    "Unbalance"
+  ],
+  "healthy_sources": {
+    "2000": "Normal_2000_15.jsonl",
+    "2500": "Normal_2500_15.jsonl",
+    "3000": "Normal_3000_15.jsonl"
+  },
+  "class_file_counts": {
+    "Looseness": 9,
+    "Misalignment": 9,
+    "Normal": 3,
+    "Unbalance": 9
+  },
+  "class_rpm_file_counts": {
+    "Looseness_2000": 3,
+    "Looseness_2500": 3,
+    "Looseness_3000": 3,
+    "Misalignment_2000": 3,
+    "Misalignment_2500": 3,
+    "Misalignment_3000": 3,
+    "Normal_2000": 1,
+    "Normal_2500": 1,
+    "Normal_3000": 1,
+    "Unbalance_2000": 3,
+    "Unbalance_2500": 3,
+    "Unbalance_3000": 3
+  },
+  "freq_max_hz": 200.0
+}

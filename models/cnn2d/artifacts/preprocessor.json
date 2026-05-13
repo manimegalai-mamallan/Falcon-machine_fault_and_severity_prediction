@@ -1,0 +1,11 @@
+{
+  "model_kind": "2d_cnn_stft_cascaded",
+  "window_size": 4096,
+  "hop_size": 2048,
+  "stft_window_samples": 512,
+  "stft_hop_samples": 64,
+  "stft_freq_keep_bins": 96,
+  "n_channels": 3,
+  "rpm_min": 2000,
+  "rpm_max": 3000
+}
